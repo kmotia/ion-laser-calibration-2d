@@ -1,4 +1,4 @@
-# Laser Calibration Software Challenge (2D)
+# Laser Calibration for Locating Trapped Ions Suspended In An Electric Field (2D)
 
 ## Table of Contents
 - [Description](#description)
@@ -9,7 +9,7 @@
 
 ## Description
 
-The contents of this directory are intended to locate the optimal mirror positions for eliciting a photon response from an ion. This project locates the optimal mirror position for two mirrors using simulated ion response data, assuming a slightly noisy gaussian distribution.
+The contents of this directory are intended to locate the optimal mirror positions for eliciting a photon response from a suspended ion. This project locates the optimal mirror position for two mirrors using simulated ion response data, assuming a slightly noisy gaussian distribution.
 
 #### Constraints:
 ```optimization_2d_multidirectional.py``` is designed with constraints on the range of possible mirror positions and ion response values. The mirror mount positions range from 0 to 1, where the true mirror positions might be normalized to this range in a practical setting. Similarly, the ion responses are constrained to the range of 0 to 100 photons per measurement round. 
